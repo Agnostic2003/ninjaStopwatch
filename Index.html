@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+
+	<!-- this title tag is used to show in browser -->
+
+	<title>Ninja Stopwatch</title>
+
+	<!-- This link tag is used to connet with css code -->
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+	<div class="container">
+		<h1>Ninja <br>
+			Stopwatch</h1>
+
+			<!-- The class name digit only used for increase  font-size 
+				and color of numbers(00:00:00:00) -->
+			
+			<!-- The txt class name is also useful as the Digit class name 
+			to change color and font size of(Hr,Min,Sec) -->
+
+			<!-- The id's "hr,min,sec and count" are used to get in javascript -->
+
+		<div id="time">
+
+			<span class="digit" id="hr">
+			00</span>
+			<span class="txt">Hr</span>
+			<span class="digit" id="min">
+			00</span>
+			<span class="txt">Min</span>
+			<span class="digit" id="sec">
+			00</span>
+			<span class="txt">Sec</span>
+			<span class="digit" id="count">
+			00</span>
+
+		</div>
+
+		<!-- The id buttons is used for only get margin gap from above timer -->
+
+		<!-- The class name btn used for many in css for attractive buttons -->
+
+		<!-- The id's start,stop, and reset are used to change three different 
+		colors for three different buttons -->
+
+		<div id="buttons">
+			<button class="btn" id="start">
+			Start</button>
+			<button class="btn" id="stop">
+			Stop</button>
+			<button class="btn" id="reset">
+			Reset</button>
+		</div>
+	</div>
+	<!-- this src used to link with javascript code -->
+	<script src="script.js"></script>
+</body>
+
+</html>
